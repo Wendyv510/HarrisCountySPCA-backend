@@ -1,2 +1,2 @@
-class CatsController < ApplicationController
+class Api::V1::CatsController < ApplicationController
 end
