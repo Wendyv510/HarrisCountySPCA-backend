@@ -1,4 +1,4 @@
 class ApplicantSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name, :pet_name, :phone_number, :email_address, :address 
+  attributes :id, :name, :pet_name, :email_address, :phone_number, :address 
 end

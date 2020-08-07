@@ -1,4 +1,4 @@
 class CatSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name, :age, :kind
+  attributes :id, :name, :age, :kind
 end

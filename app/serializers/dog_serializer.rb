@@ -1,4 +1,4 @@
 class DogSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name, :age, :breed 
+  attributes :id, :name, :age, :breed 
 end
