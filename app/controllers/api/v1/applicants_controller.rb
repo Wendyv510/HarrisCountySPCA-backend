@@ -30,5 +30,3 @@ class Api::V1::ApplicantsController < ApplicationController
         params.require(:applicant).permit(:name, :pet_name, :email_address, :phone_number, :address) 
     end 
 end
-
-end

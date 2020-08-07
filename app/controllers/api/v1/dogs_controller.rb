@@ -30,5 +30,3 @@ class Api::V1::DogsController < ApplicationController
         params.require(:dog).permit(:name, :age, :breed) 
     end 
 end
-
-end
