@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 2020_08_05_183226) do
     t.string "name"
     t.string "age"
     t.string "kind"
+    t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -34,6 +35,7 @@ ActiveRecord::Schema.define(version: 2020_08_05_183226) do
     t.string "name"
     t.string "age"
     t.string "breed"
+    t.string "image_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
