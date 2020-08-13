@@ -1,6 +1,7 @@
 class Api::V1::CatsController < ApplicationController
 
     def index
+    
         cats = Cat.all
         render json: CatSerializer.new(cats)  
     end 

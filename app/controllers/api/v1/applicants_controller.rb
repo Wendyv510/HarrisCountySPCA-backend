@@ -6,6 +6,7 @@ class Api::V1::ApplicantsController < ApplicationController
     end 
 
     def create
+        
         applicant = Applicant.new(applicant_params) 
         if applicant.save 
             render json: ApplicantSerializer.new(applicant)
