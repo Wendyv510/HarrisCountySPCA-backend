@@ -10,7 +10,7 @@ class Api::V1::DogsController < ApplicationController
         if dog.save 
             render json: DogSerializer.new(dog) 
         else 
-            render json: {error: 'Error saving cat info'}
+            render json: {error: 'Error saving dog info'}
         end 
     end 
 

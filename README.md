@@ -1,7 +1,7 @@
 # Harris County SPCA - backend 
 
- thin start -p 3001 --ssl
-
+ 
+thin start -p 3001 --ssl
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
