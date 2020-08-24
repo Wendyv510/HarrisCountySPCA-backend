@@ -12,5 +12,5 @@ Cat.create(name:'Zeus', age:'Adult', kind:'calico,short hair', image_url:'https:
 Dog.create(name:'Spot', age:'2 years old', breed:'boxer', image_url:'https://lirp-cdn.multiscreensite.com/722f38c1/dms3rep/multi/opt/0c2e9d84291e4cc396b6bf65b6d8fcc2-233x300-640w.jpg')
 Dog.create(name:'Hillary', age:'7 years old', breed:'chihuahua', image_url:'https://cdn.orvis.com/images/DBS_Chihuahua_1280.jpg')
 
-Applicant.create(name:'George Smith', pet_name:'Zeus', email_address:'gsmith@gmail.com', phone_number:'8763459876', address:'34 Willow Dr. Bath,Ny 14810')
-Applicant.create(name:'Mary Jones', pet_name:'Fluffy', email_address:'mjones@gmail.com', phone_number:'8762348624', address:'987 Loft Lane Horseheads,NY 14879')
+Applicant.create(name:'George Smith', pet_name:'Zeus', email_address:'gsmith@gmail.com', phone_number:'(876)345-9876', address:'34 Willow Dr. Bath,Ny 14810')
+Applicant.create(name:'Mary Jones', pet_name:'Fluffy', email_address:'mjones@gmail.com', phone_number:'(876)234-8624', address:'987 Loft Lane Horseheads,NY 14879')
