@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Cat.destroy_all
+Dog.destroy_all
+Applicant.destroy_all
+
 Cat.create(name:'Fluffy', age:'Kitten', kind:'Long hair', image_url:'https://images1.americanlisted.com/nlarge/spike-assertive-talkative-long-haired-black-male-kitten-for-adoption-americanlisted_38956077.jpg')
 Cat.create(name:'Zeus', age:'Adult', kind:'calico,short hair', image_url:'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQwivAwt1RFlNaF5d7HuR7zMwBUuiHq_WVgOQ&usqp=CAU')
 
